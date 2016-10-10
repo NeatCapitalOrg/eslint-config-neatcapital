@@ -1,0 +1,27 @@
+{
+  "name": "eslint-config-neatcapital",
+  "version": "1.0.0",
+  "description": "ESLint configurations for Neat Capital Inc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NeatCapitalOrg/eslint-config-neatcapital.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "neatcapital"
+  ],
+  peerDependencies: {
+    "eslint": ">= 3"
+  },
+  "author": "Neat Capital Inc.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NeatCapitalOrg/eslint-config-neatcapital/issues"
+  },
+  "homepage": "https://github.com/NeatCapitalOrg/eslint-config-neatcapital#readme"
+}
