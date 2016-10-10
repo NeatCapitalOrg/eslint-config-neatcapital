@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-neatcapital",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ESLint configurations for Neat Capital Inc.",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,7 @@
     "eslintconfig",
     "neatcapital"
   ],
-  peerDependencies: {
+  "peerDependencies": {
     "eslint": ">= 3"
   },
   "author": "Neat Capital Inc.",
