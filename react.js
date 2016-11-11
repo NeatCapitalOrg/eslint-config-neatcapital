@@ -34,7 +34,7 @@ module.exports = {
     "react/jsx-indent": ["error", 2],
     "react/jsx-indent-props": ["error", 2],
     "react/jsx-key": "error",
-    "react/jsx-no-bind": "error",
+    "react/jsx-no-bind": ["error", "ignoreRefs": true],
     "react/jsx-no-literals": "off",
     "react/jsx-no-target-blank": "error",
     "react/jsx-pascal-case": "error",
