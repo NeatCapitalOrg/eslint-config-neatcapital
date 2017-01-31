@@ -24,7 +24,7 @@ module.exports = {
   ],
   "rules": {
     "jsx-quotes": ["error", "prefer-single"],
-    "no-console": "error",
+    "no-console": ["error", { allow: ["warn", "error"] }],
     "no-underscore-dangle": ["error", { "allow": ["_maxListeners", "_id"] }],
     "react/jsx-boolean-value": "error",
     "react/jsx-closing-bracket-location": ["off", "props-aligned"],
