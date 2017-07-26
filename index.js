@@ -7,6 +7,9 @@ module.exports = {
     "node": true
   },
   "extends": "eslint:recommended",
+  "parserOptions": {
+    "ecmaVersion": 2017
+  },
   "rules": {
     "array-bracket-spacing": "error",
     "arrow-spacing": "error",
@@ -28,7 +31,7 @@ module.exports = {
     "indent": ["error", 2, { "SwitchCase": 1 }],
     "key-spacing": ["error", { "beforeColon": false, "afterColon": true }],
     "keyword-spacing": "error",
-    "max-len": ["warn", 160],
+    "max-len": ["warn", 160, { "ignoreStrings": true, "ignoreTemplateLiterals": true }],
     "new-cap": ["error", { "capIsNewExceptionPattern": "^financial" }],
     "new-parens": "error",
     "no-alert": "error",
