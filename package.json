@@ -16,7 +16,8 @@
     "neatcapital"
   ],
   "peerDependencies": {
-    "eslint": ">= 3"
+    "eslint": ">= 3",
+    "eslint-plugin-mocha": ">= 4.11"
   },
   "author": "Neat Capital Inc.",
   "license": "MIT",
