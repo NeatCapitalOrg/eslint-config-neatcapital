@@ -52,7 +52,6 @@ module.exports = {
     "import/no-unresolved": ["error", { "caseSensitive": true }],
     "import/no-webpack-loader-syntax": "error",
     "import/order": ["error", { "newlines-between": "never" }],
-    "import/prefer-default-export": "error",
     "indent": ["error", 2, { "SwitchCase": 1 }],
     "key-spacing": ["error", { "beforeColon": false, "afterColon": true }],
     "keyword-spacing": "error",
