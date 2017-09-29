@@ -3,7 +3,6 @@
 module.exports = {
   "env": {
     "es6": true,
-    "mocha": true,
     "node": true
   },
   "extends": "eslint:recommended",
@@ -11,8 +10,7 @@ module.exports = {
     "ecmaVersion": 2017
   },
   "plugins": [
-    "import",
-    "mocha"
+    "import"
   ],
   "rules": {
     "array-bracket-spacing": "error",
@@ -56,13 +54,6 @@ module.exports = {
     "key-spacing": ["error", { "beforeColon": false, "afterColon": true }],
     "keyword-spacing": "error",
     "max-len": ["warn", 160, { "ignoreStrings": true, "ignoreTemplateLiterals": true }],
-    "mocha/handle-done-callback": "error",
-    "mocha/max-top-level-suites": ["error", { "limit": 1 }],
-    "mocha/no-exclusive-tests": "error",
-    "mocha/no-mocha-arrows": "error",
-    "mocha/no-nested-tests": "error",
-    "mocha/no-return-and-callback": "error",
-    "mocha/no-sibling-hooks": "error",
     "new-cap": ["error", { "capIsNewExceptionPattern": "^financial" }],
     "new-parens": "error",
     "no-alert": "error",
