@@ -16,9 +16,12 @@
     "neatcapital"
   ],
   "peerDependencies": {
-    "eslint": ">= 3",
+    "eslint": ">= 3"
+  },
+  "optionalDependencies": {
     "eslint-plugin-mocha": ">= 4.11",
-    "eslint-plugin-import": ">= 2.7.0"
+    "eslint-plugin-import": ">= 2.7.0",
+    "eslint-plugin-react": ">=6.4.0"
   },
   "author": "Neat Capital Inc.",
   "license": "MIT",
