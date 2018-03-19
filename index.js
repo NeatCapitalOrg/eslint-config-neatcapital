@@ -9,9 +9,6 @@ module.exports = {
   "parserOptions": {
     "ecmaVersion": 2017
   },
-  "plugins": [
-    "import"
-  ],
   "rules": {
     "array-bracket-spacing": "error",
     "arrow-spacing": "error",
@@ -30,26 +27,6 @@ module.exports = {
     "eqeqeq": "error",
     "func-call-spacing": "error",
     "handle-callback-err": "error",
-    "import/default": "error",
-    "import/export": "error",
-    "import/extensions": ["error", "never"],
-    "import/first": "error",
-    "import/named": "error",
-    "import/namespace": "error",
-    "import/newline-after-import": "error",
-    "import/no-absolute-path": "error",
-    "import/no-amd": "error",
-    "import/no-anonymous-default-export": "error",
-    "import/no-duplicates": "error",
-    "import/no-mutable-exports": "error",
-    "import/no-named-as-default": "error",
-    "import/no-named-as-default-member": "error",
-    "import/no-named-default": "error",
-    "import/no-extraneous-dependencies": ["error", {"devDependencies": false, "optionalDependencies": false, "peerDependencies": false}],
-    "import/no-unassigned-import": "error",
-    "import/no-unresolved": ["error", { "caseSensitive": true }],
-    "import/no-webpack-loader-syntax": "error",
-    "import/order": ["error", { "newlines-between": "never" }],
     "indent": ["error", 2, { "SwitchCase": 1 }],
     "key-spacing": ["error", { "beforeColon": false, "afterColon": true }],
     "keyword-spacing": "error",
