@@ -21,7 +21,6 @@ module.exports = {
     "import/no-named-as-default-member": "error",
     "import/no-named-default": "error",
     "import/no-extraneous-dependencies": ["error", {"devDependencies": true, "optionalDependencies": true, "peerDependencies": false}],
-    "import/no-unassigned-import": "error",
     "import/no-unresolved": ["error", { "caseSensitive": true }],
     "import/no-webpack-loader-syntax": "error",
     "import/order": ["error", { "newlines-between": "never" }],
