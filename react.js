@@ -39,7 +39,7 @@ module.exports = {
     "react/jsx-no-target-blank": "error",
     "react/jsx-pascal-case": "error",
     "react/jsx-sort-props": "off",
-    "react/jsx-space-before-closing": "warn",
+    "react/jsx-tag-spacing": "warn",
     "react/jsx-uses-react": "error",
     "react/jsx-uses-vars": "error",
     "react/jsx-wrap-multilines": "off",
@@ -49,10 +49,15 @@ module.exports = {
     "react/no-multi-comp": "error",
     "react/no-unescaped-entities": "error",
     "react/no-unused-prop-types": "error",
-    "react/prop-types": "off",
+    "react/prop-types": "error",
     "react/self-closing-comp": "error",
     "react/sort-comp": "error",
     "react/sort-prop-types": ["warn", { "callbacksLast": true }],
     "react/style-prop-object": "error"
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
   }
 };
