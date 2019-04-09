@@ -7,10 +7,7 @@ module.exports = {
   },
   "extends": "eslint:recommended",
   "parserOptions": {
-    "ecmaVersion": 2017,
-    "ecmaFeatures": {
-      "experimentalObjectRestSpread": true
-    }
+    "ecmaVersion": 2017
   },
   "rules": {
     "array-bracket-spacing": "error",
