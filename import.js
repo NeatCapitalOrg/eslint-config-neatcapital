@@ -7,7 +7,6 @@ module.exports = {
   "rules": {
     "import/default": "error",
     "import/export": "error",
-    "import/extensions": ["error", "never"],
     "import/first": "error",
     "import/named": "error",
     "import/namespace": "error",
