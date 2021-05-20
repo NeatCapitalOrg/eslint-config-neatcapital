@@ -181,14 +181,7 @@ module.exports = {
     'no-multiple-empty-lines': 'error',
     'no-new-wrappers': 'error',
     'no-throw-literal': 'error',
-    // This one gets annoying if you have linting integrated with your editor, might re-disable it
-    // we used to have it disabled for typescript files because it annoyed me so much while editing
-    // and my editor auto removes trailing white space on save, but turns out other people's editors
-    // don't do that sooo might have to leave it on.
-    // Actually todo in future, seems like we have a ton of files that would have to be modified from this
-    // and the tslint => eslint migration is already going to cause a ton of changes so going to leave changing
-    // this rule back on for another time or another commit in this branch
-    'no-trailing-spaces': 'off',
+    'no-trailing-spaces': 'error',
     'no-undef-init': 'error',
     'no-unsafe-finally': 'error',
     'no-unused-labels': 'error',
@@ -334,9 +327,6 @@ module.exports = {
         'object-shorthand': 'off',
         'id-blacklist': 'off',
         'no-duplicate-imports': 'error',
-        // tslint had this off vs eslint on. Eventually I think we want it off for both.
-        // See above comment for more details on the situation
-        'no-trailing-spaces': 'error',
         'no-multiple-empty-lines': 'off',
         'quote-props': 'off'
       }
