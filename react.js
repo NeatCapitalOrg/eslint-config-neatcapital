@@ -1,7 +1,10 @@
 'use strict';
 
 module.exports = {
-  "extends": ["plugin:react/recommended"],
+  "extends": [
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended"
+  ],
   "env": {
     "browser": true,
     "mocha": true,
@@ -20,7 +23,8 @@ module.exports = {
     "sourceType": "module"
   },
   "plugins": [
-    "react"
+    "react",
+    "react-hooks"
   ],
   "rules": {
     "jsx-quotes": ["error", "prefer-single"],
@@ -34,7 +38,6 @@ module.exports = {
     "react/jsx-indent": ["error", 2],
     "react/jsx-indent-props": ["error", 2],
     "react/jsx-key": "error",
-    "react/jsx-no-bind": ["error", { "ignoreRefs": true }],
     "react/jsx-no-literals": "off",
     "react/jsx-no-target-blank": "error",
     "react/jsx-pascal-case": "error",
@@ -48,11 +51,8 @@ module.exports = {
     "react/no-find-dom-node": "off",
     "react/no-multi-comp": "error",
     "react/no-unescaped-entities": "error",
-    "react/no-unused-prop-types": "error",
-    "react/prop-types": "error",
     "react/self-closing-comp": "error",
     "react/sort-comp": "error",
-    "react/sort-prop-types": ["warn", { "callbacksLast": true }],
     "react/style-prop-object": "error"
   },
   "settings": {
