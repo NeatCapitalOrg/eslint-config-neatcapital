@@ -31,7 +31,7 @@ module.exports = {
     "no-console": ["error", { allow: ["warn", "error"] }],
     "no-underscore-dangle": ["error", { "allow": ["_maxListeners", "_id"] }],
     "react/jsx-boolean-value": "error",
-    "react/jsx-closing-bracket-location": ["off", "props-aligned"],
+    "react/jsx-closing-bracket-location": ["error", "tag-aligned"],
     "react/jsx-curly-spacing": "error",
     "react/jsx-equals-spacing": "error",
     "react/jsx-handler-names": "error",
