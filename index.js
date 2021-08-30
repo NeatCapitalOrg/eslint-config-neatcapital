@@ -10,7 +10,6 @@ module.exports = {
     sourceType: 'module'
   },
   plugins: [
-    'eslint-plugin-prefer-arrow',
     'eslint-plugin-import',
     '@typescript-eslint',
     '@typescript-eslint/tslint',
@@ -190,9 +189,6 @@ module.exports = {
       'error',
       'never'
     ],
-    'prefer-arrow/prefer-arrow-functions': ['error', {
-      allowStandaloneDeclarations: true
-    }],
     'prefer-const': 'error',
     'prefer-template': 'error',
     'quote-props': [
@@ -311,7 +307,6 @@ module.exports = {
         // merging the linting rules
         'no-confusing-arrow': 'error',
         'new-cap': ['error', { 'capIsNewExceptionPattern': '^financial' }],
-        'prefer-arrow/prefer-arrow-functions': 'off',
         'no-use-before-define': 'error',
         'space-before-function-paren': [
           'error',
