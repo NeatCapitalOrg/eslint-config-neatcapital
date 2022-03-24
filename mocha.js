@@ -26,18 +26,14 @@ module.exports = {
         'mocha/max-top-level-suites': 'off',
         'mocha/no-mocha-arrows': 'off',
         // Off because chai types are bad and hits this in a lot of places
-        '@typescript-eslint/no-unused-expressions': 'off',
-        // Off because mocha this.timeout requires none arrow functions
-        'prefer-arrow/prefer-arrow-functions': 'off'
+        '@typescript-eslint/no-unused-expressions': 'off'
       }
     },
     {
       files: ['**/*test.js'],
       rules: {
         // Off because chai types are bad and hits this in a lot of places
-        '@typescript-eslint/no-unused-expressions': 'off',
-        // Off because mocha this.timeout requires none arrow functions
-        'prefer-arrow/prefer-arrow-functions': 'off'
+        '@typescript-eslint/no-unused-expressions': 'off'
       }
     }
   ]

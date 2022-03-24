@@ -1,32 +1,30 @@
 'use strict';
 
 module.exports = {
-  "extends": [
+  extends: [
     "plugin:react/recommended",
     "plugin:react-hooks/recommended"
   ],
-  "env": {
-    "browser": true,
-    "mocha": true,
-    "node": true,
-    "es6": true
+  env: {
+    browser: true,
+    mocha: true,
+    node: true,
+    es6: true,
+    jest: true
   },
-  "globals": {
-    "$": true
-  },
-  "parser": "babel-eslint",
-  "parserOptions": {
-    "ecmaFeatures": {
-      "jsx": true
+  parser: "@babel/eslint-parser",
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true
     },
-    "allowImportExportEverywhere": true,
-    "sourceType": "module"
+    allowImportExportEverywhere: true,
+    sourceType: "module"
   },
-  "plugins": [
+  plugins: [
     "react",
     "react-hooks"
   ],
-  "rules": {
+  rules: {
     "jsx-quotes": ["error", "prefer-single"],
     "no-console": ["error", { allow: ["warn", "error"] }],
     "no-underscore-dangle": ["error", { "allow": ["_maxListeners", "_id"] }],
@@ -34,7 +32,6 @@ module.exports = {
     "react/jsx-closing-bracket-location": ["error", "tag-aligned"],
     "react/jsx-curly-spacing": "error",
     "react/jsx-equals-spacing": "error",
-    "react/jsx-handler-names": "error",
     "react/jsx-indent": ["error", 2],
     "react/jsx-indent-props": ["error", 2],
     "react/jsx-key": "error",
@@ -49,15 +46,14 @@ module.exports = {
     "react/no-did-mount-set-state": "error",
     "react/no-did-update-set-state": "error",
     "react/no-find-dom-node": "off",
-    "react/no-multi-comp": "error",
     "react/no-unescaped-entities": "error",
     "react/self-closing-comp": "error",
-    "react/sort-comp": "error",
-    "react/style-prop-object": "error"
+    "react/style-prop-object": "error",
+    "react/prop-types": "off"
   },
-  "settings": {
-    "react": {
-      "version": "detect"
+  settings: {
+    react: {
+      version: "detect"
     }
   }
 };

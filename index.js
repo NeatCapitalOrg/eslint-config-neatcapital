@@ -12,7 +12,6 @@ module.exports = {
   plugins: [
     'eslint-plugin-import',
     '@typescript-eslint',
-    '@typescript-eslint/tslint',
     'eslint-plugin-unicorn'
   ],
   rules: {
@@ -48,7 +47,8 @@ module.exports = {
           },
           Symbol: {
             message: 'Avoid using the `Symbol` type. Did you mean `symbol`?'
-          }
+          },
+          '{}': false
         }
       }
     ],
@@ -324,37 +324,6 @@ module.exports = {
         'no-duplicate-imports': 'error',
         'no-multiple-empty-lines': 'off',
         'quote-props': 'off'
-      }
-    },
-    // TS shared overrides should be put into the shared eslint config
-    {
-      files: ['**/*.ts'],
-      rules: {
-        // This rule has to live here because it spits out random warning messages if run on JS files
-        // would be preferable if we could drop this rule since it uses tslint which we would like to drop
-        // completely
-        '@typescript-eslint/tslint/config': [
-          'error',
-          {
-            rules: {
-              'import-spacing': true,
-              'typedef': [
-                true,
-                'call-signature',
-                'parameter'
-              ],
-              'whitespace': [
-                true,
-                'check-branch',
-                'check-decl',
-                'check-operator',
-                'check-separator',
-                'check-type',
-                'check-typecast'
-              ]
-            }
-          }
-        ]
       }
     }
   ]
