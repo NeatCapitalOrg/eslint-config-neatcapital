@@ -235,7 +235,12 @@ module.exports = {
         },
         'CallExpression': {
 
-        }
+        },
+        ignoredNodes: [
+          `FunctionExpression > .params[decorators.length > 0]`,
+          `FunctionExpression > .params > :matches(Decorator, :not(:first-child))`,
+          `ClassBody.body > PropertyDefinition[decorators.length > 0] > .key`,
+        ]
       }
     ],
     // Rules from old eslint file merged with the tslint rules
