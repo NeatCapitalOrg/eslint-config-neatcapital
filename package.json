@@ -1,6 +1,6 @@
 {
   "name": "@neatcapital/eslint-config-neatcapital",
-  "version": "5.0.0",
+  "version": "5.1.0",
   "description": "ESLint configurations for Neat Capital Inc.",
   "main": "index.js",
   "scripts": {

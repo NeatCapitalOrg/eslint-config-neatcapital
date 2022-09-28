@@ -271,6 +271,7 @@ module.exports = {
     'no-new-object': 'error',
     'no-process-env': 'error',
     'no-proto': 'error',
+    'no-return-assign': 'error',
     'no-script-url': 'error',
     'no-sequences': 'error',
     'no-tabs': 'error',
