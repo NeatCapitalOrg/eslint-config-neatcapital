@@ -217,17 +217,6 @@ module.exports = {
         '@typescript-eslint/unified-signatures': 'warn',
       },
     },
-    // Add Jest rules only for test files
-    {
-      extends: ['plugin:jest/recommended'],
-      files: ['**/*.{spec,test}.{js,jsx,tsx,ts}'],
-      plugins: ['jest'],
-      rules: {
-        // jest awaits async tests
-        '@typescript-eslint/require-await': 'off',
-        'jest/no-conditional-expect': 'warn',
-      },
-    },
   ],
 };
 
